@@ -1030,35 +1030,125 @@
           tabindex="0"
         >
             <h2 class="h5 text-primary uno">
-            <!-- Preparar la información e importación al sistema SW3000 -->
-            Definiciones
+           
+            EMPLEADOS
           </h2>
           <p>
-            <!-- El sistema SW3000 permite la importación de la información de forma
-            manual y de forma masiva. -->
-            El sistema SW3000 nos ayuda a interpretar los registros de asistencia que se
-            reciben de las terminales biométricas. En Definiciones precisamos
-            los parámetros para que las interpretaciones recibidas sean de
-            acuerdo a lo que buscamos de cada empleado.
+      
+           En el área de empleados podemos importar y consultar la información de nuestros empleados
           </p>
-          <p>
-            <!-- La recomendación es que la carga de Empleados, Jornadas y Horarios
-            se realice de forma masiva, por medio de Layouts. -->
-            Ingresamos en Definiciones en la pestaña principal:
-            <strong>DEFINICIONES -> BASE DE DATOS</strong>
-          </p>
+         
           <div class="row">
             <div class="col-lg-12">
               <img class="img-fluid"
                 <img
-                src="img/definiciones.jpg"
+                src="img/menu-empleados.jpg"
                 class="img-fluid"
                 alt=""
               />
             </div>
           </div>
+          <br />
+           <details>
+             <summary class="h5 text-decoration-underline">
+              Descripción de cada función de Empleados
+            </summary>
+          <div class="list-group">
+          <ul class="list-group">
+            <li class="list-group-item p-4"><strong>Base de Datos</strong> de los Empleados contiene todo la Información necesaria para que una vez que el Empleado realiza Registros en la Terminal y se descarguen al Sistema, los resultados sean visibles inmediatamente en los Auxiliares y se pueda generar un Reporte.</li>
+            <li class="list-group-item p-4"><strong>Datos Generales:</strong> Esta opción presenta en una cuadrícula todos los Datos de todos los Empleados donde se pueden realizar diferentes acciones</li>
+            <li class="list-group-item p-4"><strong>Catálogo de Empleados </strong>se genera con los Datos de los Empleados, ordenados por Empresa, Sub Grupo, Departamento y Número de Empleado.</li>
+            <li class="list-group-item p-4"><strong>Catálogo de Fotos, Huellas y Firmas</strong> Esta opción presenta en una cuadrícula la información de cada Empleado referente a sus Huellas, Firma y Foto mostrando claramente la falta de alguna de ellas.</li>
+            <li class="list-group-item p-4"><strong>Altas, Bajas y Eventuales</strong> definen cuál ó cuáles Eventos serán Justificados y consecuentemente autorizados. </li>
+            <li class="list-group-item p-4"><strong>Importar Archivo</strong> Se pueden Importar los Datos de los Empleados mediante un Archivo Layout. El Layout es una hoja de cálculo de Excel organizada en columnas con información de nuestros empleados.</li>
+            
+          </ul>
+          </div>
+         </details>
 
           <br />
+          <br />
+          <hr />
+          <h5 class="h5">Layouts de Empleados</h5>
+          <p>
+            Por medio del archivo Layout de empleados podemos cargar la
+            información de nuestros empleados al sistema.
+          </p>
+          <a
+            download="Layouts-Empleados-Muestra.xlsx"
+            href="./layouts/Layouts-Empleados-Muestra.xlsx"
+            >Descargar Layout de Empleados Muestra</a
+          >
+
+          <br />
+          <br />
+          <details>
+            <summary class="h5 text-decoration-underline">
+              Que datos lleva cada columna del Layout de Empleados
+            </summary>
+            <ul>
+              <li>
+                <strong>Num_Emp</strong> - Dato numérico, permite hasta 8
+                dígitos numéricos del 00000001 al 99999999
+              </li>
+              <li>
+                <strong>Num_crede</strong> - Dato numérico, permite hasta 8
+                dígitos numéricos del 00000001 al 99999999
+              </li>
+              <li>
+                <strong>Nombre</strong> - Nombre del usuario, permite hasta 20
+                caracteres
+              </li>
+              <li>
+                <strong>A_paterno</strong> - Apellido paterno (20 caracteres)
+              </li>
+              <li>
+                <strong>A_materno</strong> - Apellido materno (20 caracteres)
+              </li>
+              <li>
+                <strong>Pue</strong> - Tipo numérico (8 dígitos alfanuméricos)
+              </li>
+              <li>
+                <strong>Puesto</strong> - Descripción del Puesto (30 caracteres)
+              </li>
+              <li>
+                <strong>Dep</strong> - Tipo numérico (8 dígitos alfanuméricos)
+              </li>
+              <li>
+                <strong>Depto</strong> - Descripción del Departamento (30
+                caracteres)
+              </li>
+              <li>
+                <strong>Horario</strong> - número ID del horario que corresponde
+                al usuario
+              </li>
+              <li><strong>Con </strong> – numero ID del tipo de control</li>
+              <li><strong>Control </strong> – Descripción del control</li>
+              <li>
+                <strong>Sub </strong> – numero ID que corresponde al usuario
+              </li>
+              <li><strong>Subgrupo </strong> – Descripción del subgrupo</li>
+              <li>
+                <strong>Pue</strong> - Tipo numérico (8 dígitos alfanuméricos)
+              </li>
+              <li>
+                <strong>Puesto</strong> - Descripción del Puesto (30 caracteres)
+              </li>
+              <li>
+                <strong>Dep</strong> - Tipo numérico (8 dígitos alfanuméricos)
+              </li>
+              <li>
+                <strong>Depto</strong> - 8 dígitos numéricos del 00000001 al
+                99999999
+              </li>
+            </ul>
+          </details>
+
+
+
+
+
+        <br />
         </div>
         
         <div
