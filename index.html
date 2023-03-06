@@ -1129,17 +1129,25 @@
               </li>
               <li><strong>Subgrupo </strong> – Descripción del subgrupo</li>
               <li>
-                <strong>Pue</strong> - Tipo numérico (8 dígitos alfanuméricos)
+                <strong>F_alta</strong> - Tipo numérico (8 dígitos alfanuméricos)
               </li>
               <li>
-                <strong>Puesto</strong> - Descripción del Puesto (30 caracteres)
+                <strong>F_baja</strong> - Descripción del Puesto (30 caracteres)
               </li>
               <li>
-                <strong>Dep</strong> - Tipo numérico (8 dígitos alfanuméricos)
+                <strong>Status</strong> - Tipo numérico (8 dígitos alfanuméricos)
               </li>
               <li>
-                <strong>Depto</strong> - 8 dígitos numéricos del 00000001 al
-                99999999
+                <strong>Super</strong> - En esta columna indicamos si el empleado es Supervisor, esto significa que podrá entrar al sistema mediante una clave personal y de acuerdo a los Funciones que el Administrador le haya habilitado, podrá ejercerlas sobre el personal que esté Supervisando directamente o indirectamente.
+                <ul>
+                  <strong>3 Opciones para indicar si es supervisor</strong>
+                  <li><strong>N </strong>: No es supervisor </li>
+                  <li><strong>S </strong>: Supervisor Simple - Supervisa al Personal directamente cuando cada Empleado tenga asignado a dicho Supervisor en el campo de Super_X </li>
+                  <li><strong>E </strong>: Supervisor Especial -  Supervisor de todos los supervisores, podrá ejercer sus funciones sobre todo el Personal que sus Supervisados tengan bajo su responsabilidad.</li>
+                </ul>
+              </li>
+               <li>
+                <strong>Super_X</strong> - En esta columna indicamos quien supervisa al empleado añadiendo el numero de empleado del supervisor. Cuando el empleado puede ser supervisado por  cualquier supervisor capturamos el : 00000000.
               </li>
             </ul>
           </details>
